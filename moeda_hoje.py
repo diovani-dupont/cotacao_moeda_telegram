@@ -57,7 +57,7 @@ def verify(msg):
 @bot.message_handler(func=verify)
 def responder(msg):
     texto = """
-    Aperte opção 1 para continuar:
+    Aperte opção para continuar:
      /cotacao
 """
     bot.reply_to(msg, texto)
