@@ -33,7 +33,8 @@ def euro(msg):
 def bitcoin(msg):
     bot.send_message(msg.chat.id, f"Cotação do Bitcoin hoje: R$ {btc}")
 
-@bot.message_handler(commands=["cotacao"])
+@bot.message_handler(commands=["cotacao"
+                               ""])
 def opcao1(msg):
     texto = """
     Qual cotação você precisa?
